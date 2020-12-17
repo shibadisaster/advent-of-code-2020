@@ -19,9 +19,5 @@ for _ in range(len(inp) - 1):
 
         if inp[position[1]][position[0] % columns] == "#":
             trees += 1
-            print(str(position[0] % columns) + ", " + str(position[1]) + "!!!")
-            
-        else:
-            print(str(position[0] % columns) + ", " + str(position[1]))
 
 print(trees)
